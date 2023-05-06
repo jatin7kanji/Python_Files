@@ -1,0 +1,12 @@
+touch .gitignore
+git config --global user.name jatin
+git config --gloabal user.email "your mail"
+git init
+git add .
+git commit -m "Inital Commit"
+git status # just see the status
+ssh-keygen -t rsa -b 4096 -C "your mail"
+# this will give us a key to connet the computer to git account
+
+git remote add origin < ssh key>
+git push origin master
